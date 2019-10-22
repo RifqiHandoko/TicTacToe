@@ -81,9 +81,9 @@ void singlePlayer(){
 
 int hardCom(int count){
     int i,num, n = 0;
-    
+
     calibrateArray();
-    
+
     while(n<2){
         if(n == 0)
             num = 50;
@@ -128,7 +128,7 @@ int hardCom(int count){
             if(sq[7] == 2)
                 return 7;
         }
-        
+
         n++;
     }
 
@@ -153,6 +153,56 @@ int hardCom(int count){
     else
         return 0;
 }
+
+    /* OLD ALGORITHM
+
+    if(count == 1){
+        if(square[5] == '5')
+            return 5;
+        else{
+            if(square[1] == 'X' || square [2] == 'X' || square [3] == 'X' || square [4] == 'X')
+                return 7;
+            else if(square[6] == 'X' || square[7] == 'X' || square [8] == 'X' || square [9] == 'X')
+                return 1;
+        }
+    }
+
+    else if(square[1] == 'X' && square[5] == 'X')
+        return 9;
+    else if(square[3] == 'X' && square[5] == 'X')
+        return 7;
+    else if(square[7] == 'X' && square[5] == 'X')
+        return 3;
+    else if(square[9] == 'X' && square[5] == 'X')
+        return 1;
+
+    else if(square[1] == 'X' && square[2] == 'X')
+        return 3;
+    else if(square[3] == 'X' && square[2] == 'X')
+        return 1;
+    else if(square[1] == 'X' && square[3] == 'X')
+        return 2;
+
+    else if(square[4] == 'X' && square[5] == 'X')
+        return 6;
+    else if(square[6] == 'X' && square[5] == 'X')
+        return 4;
+
+    else if(square[7] == 'X' && square[8] == 'X')
+        return 9;
+    else if(square[9] == 'X' && square[8] == 'X')
+        return 7;
+    else if(square[7] == 'X' && square[9] == 'X')
+        return 8;
+
+    else if(square[1] != 'X' && square[5] != 'X')
+        return 9;
+    else if(square[3] != 'X' && square[5] != 'X')
+        return 7;
+    else if(square[7] != 'X' && square[5] != 'X')
+        return 3;
+    else if(square[9] != 'X' && square[5] != 'X')
+        return 1;*/
 
 int hardPlayer(){
 
