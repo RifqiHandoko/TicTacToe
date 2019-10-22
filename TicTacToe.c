@@ -488,8 +488,8 @@ void reset(){
 
 /**
 Coded by:
-Juan Felix Aldo                 <1706022520>
 Muhammad Rifqi Handokoputra     <1706985312>
+Juan Felix Aldo                 <1706022520>
 
 Compiled by Code::Blocks 17.12 GNU GCC Compiler
 
