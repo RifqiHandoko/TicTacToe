@@ -21,7 +21,7 @@ Program explanation with a flowchart in Indonesian [available here.](https://dri
 - [ ] Board expansion
 
 ## Installation
-File with ".c" extension needs to be open and run using C compiler, we recommend to use (Code::Blocks)[http://www.codeblocks.org/] IDE because this program was made around its environment.
+File with ".c" extension needs to be open and run using C compiler, we recommend to use [Code::Blocks](http://www.codeblocks.org/) IDE because this program was made around its environment.
 
 ## License
 This code is released into the public domain free of any restrictions. The author requests acknowledgment if the code is used, but does not require it. This code is provided free of any liability and without any quality claims by the author.
