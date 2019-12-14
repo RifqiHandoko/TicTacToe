@@ -9,8 +9,10 @@ Program explanation with a flowchart in Indonesian [available here.](https://dri
 ## Feature
 - **Single Player** with two difficulty levels
   - ***Easy**, based on* `srand()` *and* `rand()` *functions*
+  - ***Medium**, combination between easy and hard mode but switches made randomly*
   - ***Hard**, using an algorithm that has ~80% chance for computer to win or draw*
 - **Two Player**
+- **Score Tracking**
 - **Simple Commands**
 - **Unconfusing User Interface**
 - **Great User Experience**
